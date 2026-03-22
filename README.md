@@ -6,17 +6,17 @@
 
 Current version: v0.1.0
 
-Skill experta en preparar el setup basico de repositorios Git/GitHub: `.gitignore`, `.gitattributes`, README con valor, licencias, metadata del repo, tags y releases, y GitHub Actions profesionales con testing.
+Expert skill for professional Git/GitHub repository setup: `.gitignore`, `.gitattributes`, value-driven README files, licensing, repository metadata, tags and releases, and production-quality GitHub Actions with testing.
 
 ## Purpose
 
-La skill reemplaza configuraciones ad-hoc con un flujo guiado que:
+This skill replaces ad-hoc setup with a guided workflow that:
 
-- revisa el repo antes de escribir
-- pregunta solo lo necesario
-- crea o refina archivos base de calidad
-- añade automatizaciones con GitHub Actions
-- deja reglas claras para releases y tags
+- inspects the repo before writing
+- asks only for what cannot be inferred
+- creates or refines high-quality baseline files
+- adds GitHub Actions automation
+- establishes clear rules for tags and releases
 
 ## Skill Files
 
@@ -33,7 +33,7 @@ La skill reemplaza configuraciones ad-hoc con un flujo guiado que:
 
 ## Install
 
-Copia esta carpeta dentro de tu directorio de skills. Ejemplo:
+Copy this folder into your skills directory. Example:
 
 ```bash
 cp -R git-setup-skill "$HOME/.agents/skills/git-setup-skill"
@@ -41,28 +41,28 @@ cp -R git-setup-skill "$HOME/.agents/skills/git-setup-skill"
 
 ## Usage
 
-Frases de activacion tipicas:
+Typical trigger phrases:
 
-- "necesito un buen .gitignore"
-- "quiero un README con valor"
-- "configura GitHub Actions"
-- "prepara releases y tags"
-- "ponle licencia al repo"
+- "I need a good .gitignore"
+- "I want a README with real value"
+- "set up GitHub Actions"
+- "prepare releases and tags"
+- "add a license to the repository"
 
 ## What it produces
 
-- `.gitignore` y `.gitattributes` adecuados al stack
-- `README.md` con secciones utiles
-- `LICENSE` segun la licencia elegida
-- `CODE_OF_CONDUCT.md` / `SECURITY.md` si aplica
-- workflows de GitHub Actions para CI y releases
-- metadata del repositorio (descripcion, topics)
+- `.gitignore` and `.gitattributes` tailored to the stack
+- `README.md` with useful sections
+- `LICENSE` matched to the licensing strategy
+- `CODE_OF_CONDUCT.md` / `SECURITY.md` when appropriate
+- GitHub Actions workflows for CI and releases
+- repository metadata such as description and topics
 
 ## Compatibility
 
-- Requiere `git` y `gh` para tareas de metadata y releases.
-- En Windows, usa una shell compatible con `bash` si se agregan scripts.
+- Requires `git` and `gh` for metadata and release tasks.
+- On Windows, use a shell compatible with `bash` if scripts are added later.
 
 ## Contributing
 
-Ver `CONTRIBUTING.md`.
+See `CONTRIBUTING.md`.
